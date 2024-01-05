@@ -57,7 +57,7 @@ function Home() {
 
                     
 
-                    <Link to='/about' className='text-gray-700 hover:text-gray-900'> Ver más...</Link>
+                    <Link to='/nosotros' className='text-gray-700 hover:text-gray-900'> Ver más...</Link>
                 </p>
                 {/* <h1 className={`text-stone-950 flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] ml-10`}>
