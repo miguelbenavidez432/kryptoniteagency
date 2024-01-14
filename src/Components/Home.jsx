@@ -24,14 +24,13 @@ function Home() {
       <div className={` ${styles.flexStart} `}>
         <img src="../src/assets/kriptonite.png" alt="" />
       </div>
-      <div className={`bg-slate-700 ${styles.flexStart} `}>
+      {/* <div className={`bg-slate-700 ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}`}>
           <Hero></Hero>
         </div>
-      </div>
+      </div> */}
       <div className={`bg-slate-700 ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats></Stats>
           <div className=' w-full overflow-hidden' >
             <div className={`${styles.flexCenter} ${styles.paddingX} my-8 mx-8 py-16 px-16`}>
                 <img src={agencia_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500' />
@@ -48,7 +47,7 @@ function Home() {
                     <Link to='/nosotros' className='text-gray-600 hover:text-gray-900'> Ver más...</Link>
                 </p>
             </div>
-            <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16`}>
+            <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16 border-slate-500`}>
                 <img src={central_de_medios_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500'/>
                 <p className={`${styles.paragraph} max-w-[770px] mt-5 relative text-white text-start me-60`}>
                     En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
