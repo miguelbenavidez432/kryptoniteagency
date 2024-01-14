@@ -34,7 +34,7 @@ function Home() {
           <Stats></Stats>
           <div className=' w-full overflow-hidden' >
             <div className={`${styles.flexCenter} ${styles.paddingX} my-8 mx-8 py-16 px-16`}>
-                <img src={agencia_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 ' />
+                <img src={agencia_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500' />
                 {/* <h1 className='text-black flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
                     AGENCIA
@@ -49,7 +49,7 @@ function Home() {
                 </p>
             </div>
             <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16`}>
-                <img src={central_de_medios_horizontal} alt="" className='rounded-3xl absolute px-14 my-14'/>
+                <img src={central_de_medios_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500'/>
                 <p className={`${styles.paragraph} max-w-[770px] mt-5 relative text-white text-start me-60`}>
                     En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
                     compra y ejecución de estrategias de medios. Nuestro objetivo es ayudar a las marcas a maximizar su alcance e
@@ -65,7 +65,7 @@ function Home() {
                 </h1> */}
             </div>
             <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16`}>
-            <img src={consultoria_horizontal} alt="" className='rounded-3xl absolute px-14 my-14'/>
+            <img src={consultoria_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500'/>
                 <p className={`${styles.paragraph} max-w-[770px] relative text-right text-white ms-80 `}>
                     En nuestra consultoría de comunicación y estrategia nos especializamos en ayudar a las empresas a
                     desarrollar y ejecutar estrategias de comunicación efectivas y a medida. Nuestro enfoque radica en comprender
