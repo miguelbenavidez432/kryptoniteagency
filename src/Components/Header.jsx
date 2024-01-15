@@ -19,7 +19,8 @@ const Header = () => {
               className={`font-poppins font-normal cursor-pointer text-[16px] ${active === n.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mr-0" : "mr-6"}`}
             >
-              <h1 className="font-semibold font-poppins">{n.title}</h1>
+              {/* <h1 className="font-semibold font-poppins">{n.title}</h1> */}
+              <a className="font-semibold font-poppins" href={`${n.url}`}>{n.title}</a>
             </li>
           ))
         }
@@ -43,7 +44,7 @@ const Header = () => {
                     } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                   onClick={() => setActive(nav.title)}
                 >
-                  <a href={`${nav.id}`}>{nav.title}</a>
+                  <a href={`${nav.url}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>

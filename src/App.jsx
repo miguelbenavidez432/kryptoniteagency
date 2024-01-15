@@ -8,6 +8,9 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contacts from './Components/Contacts';
 import Clients from './Components/Clients';
+import Agencia from './Components/Agencia';
+import Central from './Components/Central';
+import Consultoria from './Components/Consultoria';
 
 export default function App() {
   const location = useLocation();
@@ -21,6 +24,9 @@ export default function App() {
         <Route path='/nosotros' element={<About />}></Route>
         <Route path='/contacto' element={<Contacts />}></Route>
         <Route path='/clientes' element={<Clients />}></Route>
+        <Route path='/agencia' element={<Agencia></Agencia>}></Route>
+        <Route path='/central-de-medios' element={<Central></Central>}></Route>
+        <Route path='/consultoria' element={<Consultoria></Consultoria>}></Route>
       </Routes>
     </>
   )

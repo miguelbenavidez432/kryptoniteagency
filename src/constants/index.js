@@ -37,18 +37,22 @@ export const navLinks = [
   {
     id: "agencia",
     title: "Agencia",
+    url: '/agencia'
   },
   {
     id: "central de medios",
     title: "Central de medios",
+    url: '/central-de-medios'
   },
-  {
-    id: "comunicacion",
-    title: "Comunicación",
-  },
+  // {
+  //   id: "comunicacion",
+  //   title: "Comunicación",
+  //   url: '/agencia'
+  // },
   {
     id: "consultora",
     title: "Consultora",
+    url: '/consultoria'
   },
 ];
 
@@ -144,15 +148,15 @@ export const footerLinks = [
     links: [
       {
         name: "Agencia ",
-        link: "http://kryptoniteagency.com/nosotros",
+        link: "http://kryptoniteagency.com/agencia",
       },
       {
         name: "Central de medios",
-        link: "http://kryptoniteagency.com/nosotros",
+        link: "http://kryptoniteagency.com/central-de-medios",
       },
       {
         name: "Consultoría en comunicación gestión",
-        link: "http://kryptoniteagency.com/nosotros",
+        link: "http://kryptoniteagency.com/consultoria",
       },
     ],
   },

@@ -33,30 +33,30 @@ function Home() {
         <div className={`${styles.boxWidth}`}>
           <div className=' w-full overflow-hidden' >
             <div className={`${styles.flexCenter} ${styles.paddingX} my-8 mx-8 py-16 px-16`}>
-                <img src={agencia_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500' />
+                <img src={agencia_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500 invisible md:visible' />
                 {/* <h1 className='text-black flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
                     AGENCIA
                 </h1> */}
-                <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] relative text-right text-white ms-60 bottom-0 left-0`}>
+                <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] relative md:text-right text-white ms-60 text-center`}>
                     En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y
                     posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
                     resultados excepcionales a nuestros clientes al implementar estrategias de marketing efectivas y campañas
                     publicitarias impactantes.
 
-                    <Link to='/nosotros' className='text-gray-600 hover:text-gray-900'> Ver más...</Link>
+                    <Link to='/agencia' className='text-black hover:text-gray-700'> Ver más...</Link>
                 </p>
             </div>
-            <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16 border-slate-500`}>
+            <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16 border-slate-500 invisible md:visible`}>
                 <img src={central_de_medios_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500'/>
-                <p className={`${styles.paragraph} max-w-[770px] mt-5 relative text-white text-start me-60`}>
+                <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] relative text-white md:text-start me-60 text-center`}>
                     En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
                     compra y ejecución de estrategias de medios. Nuestro objetivo es ayudar a las marcas a maximizar su alcance e
                     impacto en el mercado, optimizando cada dólar invertido en publicidad.
 
                     
 
-                    <Link to='/nosotros' className='text-gray-700 hover:text-gray-900'> Ver más...</Link>
+                    <Link to='/central-de-medios' className='text-black hover:text-gray-700'> Ver más...</Link>
                 </p>
                 {/* <h1 className={`text-stone-950 flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] ml-10`}>
@@ -64,13 +64,13 @@ function Home() {
                 </h1> */}
             </div>
             <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16`}>
-            <img src={consultoria_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500'/>
-                <p className={`${styles.paragraph} max-w-[770px] relative text-right text-white ms-80 `}>
+            <img src={consultoria_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500 invisible md:visible'/>
+                <p className={`${styles.paragraph} max-w-[770px] relative md:text-right text-white ms-80 text-center`}>
                     En nuestra consultoría de comunicación y estrategia nos especializamos en ayudar a las empresas a
                     desarrollar y ejecutar estrategias de comunicación efectivas y a medida. Nuestro enfoque radica en comprender
                     a fondo las necesidades y objetivos de cada cliente, para así poder diseñar soluciones personalizadas que generen
                     un impacto positivo en su reputación y relación con su público objetivo.
-                    <Link to='/nosotros' className='text-gray-700 hover:text-gray-900'> Ver más...</Link>
+                    <Link to='/consultoria' className='text-black hover:text-gray-700'> Ver más...</Link>
                 </p>
             </div>
 
