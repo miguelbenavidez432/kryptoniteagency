@@ -18,9 +18,11 @@ function Agencia() {
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
                                 AGENCIA
                             </h1> */}
-
-                    <img src={agencia} alt="" className='rounded-3xl absolute px-10 mx-14 brightness-50 invisible md:visible size-auto' />
-                    <p className={`${styles.paragraph} max-w-screen-lg text-base mt-5 ss:text[22px] relative text-white font-semibold`}>
+                    <img src={agencia} alt="" className='rounded-3xl brightness-50 min-w-full max-h-64 ' />
+                   
+                </div>
+                <div className={`${styles.paddingX} ${styles.flexCenter} my-24`}>
+                <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] text-white font-semibold`}>
                         En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y
                         posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
                         resultados excepcionales a nuestros clientes al implementar estrategias de marketing efectivas y campañas
