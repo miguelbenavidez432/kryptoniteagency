@@ -47,9 +47,9 @@ function Home() {
                     <Link to='/agencia' className='text-black hover:text-gray-700'> Ver más...</Link>
                 </p>
             </div>
-            <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16 border-slate-500 invisible md:visible`}>
-                <img src={central_de_medios_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500'/>
-                <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] relative text-white md:text-start me-60 text-center`}>
+            <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16 border-slate-500 `}>
+                <img src={central_de_medios_horizontal} alt="" className='rounded-3xl absolute px-14 my-14 border-slate-500 invisible md:visible'/>
+                <p className={`${styles.paragraph} max-w-[770px] relative text-white md:text-start me-60 text-center`}>
                     En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
                     compra y ejecución de estrategias de medios. Nuestro objetivo es ayudar a las marcas a maximizar su alcance e
                     impacto en el mercado, optimizando cada dólar invertido en publicidad.
