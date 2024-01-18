@@ -47,6 +47,7 @@ import consultoria from './consultoria.png'
 import central_de_medios_2 from './central_de_medios_2.png'
 import agencia_2 from './agencia_2.png'
 import consultoria_2 from './consultoria_2.png'
+import background from './background.png'
 
 export {
   vamos_bsas,
@@ -98,4 +99,5 @@ export {
   central_de_medios_2,
   agencia_2,
   consultoria_2,
+  background
 };

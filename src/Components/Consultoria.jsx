@@ -20,7 +20,6 @@ function Consultoria() {
             </div>
             <div className={`${styles.paddingX} ${styles.flexCenter} `}>
                 <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold`}>
-                    <br /><br />
                     En nuestra consultoría de comunicación y estrategia nos especializamos en ayudar a las empresas a desarrollar y
                     ejecutar estrategias de comunicación efectivas y a medida.
                     <br /><br />
