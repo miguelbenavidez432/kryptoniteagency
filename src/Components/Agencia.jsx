@@ -23,7 +23,7 @@ function Agencia() {
 
             </div>
             <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-                <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] text-white font-semibold`}>
+                <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold`}>
                     En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y
                     posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
                     resultados excepcionales a nuestros clientes al implementar estrategias de marketing efectivas y campañas
