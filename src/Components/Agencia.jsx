@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from '../style';
 import Header from './Header';
-import { agencia } from '../assets';
+import { agencia, central_de_medios_2 } from '../assets';
 
 function Agencia() {
     return (
@@ -18,7 +18,7 @@ function Agencia() {
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
                                 AGENCIA
                             </h1> */}
-                    <img src={agencia} alt="" className='rounded-3xl brightness-50 min-w-full max-h-64 ' />
+                    <img src={central_de_medios_2} alt="" className='rounded-3xl brightness-50 min-w-96 max-h-64 ' />
                    
                 </div>
                 <div className={`${styles.paddingX} ${styles.flexCenter} my-24`}>

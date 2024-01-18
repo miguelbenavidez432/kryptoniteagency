@@ -44,6 +44,7 @@ import central_de_medios_horizontal from './central_de_medios_horizontal.png'
 import central_de_medios from './central_de_medios.png'
 import consultoria_horizontal from './consultoria_horizontal.png'
 import consultoria from './consultoria.png'
+import central_de_medios_2 from './central_de_medios_2.png'
 
 
 export {
@@ -92,5 +93,6 @@ export {
   consultoria,
   consultoria_horizontal,
   central_de_medios,
-  central_de_medios_horizontal
+  central_de_medios_horizontal,
+  central_de_medios_2
 };
