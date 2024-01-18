@@ -45,7 +45,8 @@ import central_de_medios from './central_de_medios.png'
 import consultoria_horizontal from './consultoria_horizontal.png'
 import consultoria from './consultoria.png'
 import central_de_medios_2 from './central_de_medios_2.png'
-
+import agencia_2 from './agencia_2.png'
+import consultoria_2 from './consultoria_2.png'
 
 export {
   vamos_bsas,
@@ -94,5 +95,7 @@ export {
   consultoria_horizontal,
   central_de_medios,
   central_de_medios_horizontal,
-  central_de_medios_2
+  central_de_medios_2,
+  agencia_2,
+  consultoria_2,
 };

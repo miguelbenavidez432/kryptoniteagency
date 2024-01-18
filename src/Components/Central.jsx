@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from '../style';
 import Header from './Header';
-import { central_de_medios } from '../assets';
+import { central_de_medios, central_de_medios_2, logo } from '../assets';
 
 function Central() {
     return (
@@ -13,9 +13,12 @@ function Central() {
                 </div>
 
             </div>
-            <div className={`${styles.paddingX} ${styles.flexCenter} my-24`}>
-                <img src={central_de_medios} alt="" className='rounded-3xl absolute px-14 mx-14 brightness-50 invisible md:visible size-auto' />
-                <p className={`${styles.paragraph} max-w-screen-lg text-base mt-5 ss:text[22px] relative text-white font-semibold`}>
+            <div className={`${styles.paddingX} ${styles.flexCenter} my-10`}>
+                <img src={logo} alt="" className='rounded-3xl brightness-50 min-w-40 max-h-48' />
+                <img src={central_de_medios_2} alt="" className='rounded-3xl brightness-50 min-w-96 max-h-96 ' />
+            </div>
+            <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+                <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold`}>
                     En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
                     compra y ejecución de estrategias de medios. Nuestro objetivo es ayudar a las marcas a maximizar su alcance e
                     impacto en el mercado, optimizando cada dólar invertido en publicidad.
@@ -42,6 +45,7 @@ function Central() {
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] ml-10`}>
                                 CENTRAL DE MEDIOS
                             </h1> */}
+
             </div>
         </div>
     )
