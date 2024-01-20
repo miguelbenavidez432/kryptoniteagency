@@ -21,10 +21,10 @@ function About() {
         <div className={`${styles.boxWidth}`}>
 
             <div className=' w-full overflow-hidden' >
-                <div className={`${styles.flexCenter}  py-4`}>
+                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
                     <img src={agencia_3} alt="" className='w-screen' />
                 </div>
-                <div className={`${styles.flexCenter}  py-4`}>
+                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
                     <img src={central_de_medios_3} alt="" className='w-screen' />
                 </div>
                 <div className={`${styles.flexCenter}  py-4`}>
