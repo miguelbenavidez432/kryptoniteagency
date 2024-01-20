@@ -32,6 +32,9 @@ function Home() {
       <div className={`bg-slate-700 ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <div className=' w-full overflow-hidden' >
+            <div className={`${styles.flexCenter} ${styles.paddingX} relative overflow-hidden mt-4 `}>
+              <About></About>
+            </div>
             {/* <div className={`${styles.flexCenter} ${styles.paddingX} relative bg-slate-600 overflow-hidden mt-4 `}>
               <div className='grid grid-cols-1 md:grid-cols-2 mt-4 mb-4'>
 
