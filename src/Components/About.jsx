@@ -20,15 +20,21 @@ function About() {
         //     <div className={`bg-slate-700 ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
 
-            <div className=' w-full overflow-hidden' >
-                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
-                    <img src={agencia_3} alt="" className='w-screen' />
+            <div className='w-full overflow-hidden' >
+                <div className={`${styles.flexCenter} py-4`}>
+                    <Link to='/agencia'>
+                        <img src={agencia_3} alt="" className='w-screen' />
+                    </Link>
                 </div>
-                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
-                    <img src={central_de_medios_3} alt="" className='w-screen' />
+                <div className={`${styles.flexCenter} py-4`}>
+                    <Link to='/central-de-medios' >
+                        <img src={central_de_medios_3} alt="" className='w-screen' />
+                    </Link>
                 </div>
-                <div className={`${styles.flexCenter}  py-4`}>
-                    <img src={consultoria_3} alt="" className='w-screen' />
+                <div className={`${styles.flexCenter} py-4`}>
+                    <Link to='/consultoria'>
+                        <img src={consultoria_3} alt="" className='w-screen' />
+                    </Link>
                 </div>
                 {/* <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
 
@@ -81,9 +87,7 @@ function About() {
 
             </div>
             <div className='my-2 mx-2 py-2 px-2'></div>
-            <Clients></Clients>
-            <Contacts></Contacts>
-            <Footer></Footer>
+
         </div>
         //  </div>
         // </div>
