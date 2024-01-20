@@ -6,7 +6,7 @@ import Footer from './Footer'
 import Clients from './Clients'
 import Contacts from './Contacts'
 import { Link } from 'react-router-dom'
-import { agencia, agencia_2, agencia_horizontal, central_de_medios, central_de_medios_2, central_de_medios_horizontal, consultoria, consultoria_2, consultoria_horizontal } from '../assets'
+import { agencia, agencia_2, agencia_3, agencia_horizontal, central_de_medios, central_de_medios_2, central_de_medios_3, central_de_medios_horizontal, consultoria, consultoria_2, consultoria_3, consultoria_horizontal } from '../assets'
 
 function About() {
     return (
@@ -21,15 +21,24 @@ function About() {
         <div className={`${styles.boxWidth}`}>
 
             <div className=' w-full overflow-hidden' >
-                <div className={`${styles.flexCenter} ${styles.paddingX} ${styles.paddingY} ${styles.marginX} ${styles.marginY}`}>
+                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
+                    <img src={agencia_3} alt="" className='' />
+                </div>
+                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
+                    <img src={central_de_medios_3} alt="" className='' />
+                </div>
+                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
+                    <img src={consultoria_3} alt="" className='' />
+                </div>
+                {/* <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
 
                     <img src={agencia_2} alt="" className='me-72 p-0 absolute' />
 
                     <img src={agencia_horizontal} alt="" className='absolute mx-8 my-14 border-slate-500 border-2 invisible md:visible' />
-                    {/* <h1 className='text-black flex-1 font-poppins font-semibold 
+                    <h1 className='text-black flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
-                                AGENCIA
-                            </h1> */}
+                        AGENCIA
+                    </h1>
                     <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] md:relative text-right text-white ms-60 `}>
                         En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y
                         posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
@@ -40,9 +49,9 @@ function About() {
                     </p>
                 </div>
                 <div className={`${styles.flexCenter} ${styles.paddingX} ${styles.paddingY} ${styles.marginX} ${styles.marginY}`}>
-                    
+
                     <img src={central_de_medios_2} alt="" className='me-72 p-0 absolute max-w-screen-sm size-60' />
-                    
+
                     <img src={central_de_medios_horizontal} alt="" className='absolute mx-8 my-14 border-slate-500 border-2 invisible md:visible' />
                     <p className={`${styles.paragraph} max-w-[770px] relative text-white md:text-start me-60 text-center `}>
                         En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
@@ -53,10 +62,10 @@ function About() {
 
                         <Link to='/central-de-medios' className='text-black hover:text-gray-700'> Ver más...</Link>
                     </p>
-                    {/* <h1 className={`text-stone-950 flex-1 font-poppins font-semibold 
+                    <h1 className={`text-stone-950 flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] ml-10`}>
-                                CENTRAL DE MEDIOS
-                            </h1> */}
+                        CENTRAL DE MEDIOS
+                    </h1>
                 </div>
                 <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16`}>
                     <img src={consultoria_2} alt="" className='me-72 p-0 absolute max-w-screen-sm size-60' />
@@ -68,7 +77,7 @@ function About() {
                         un impacto positivo en su reputación y relación con su público objetivo.
                         <Link to='/consultoria' className='text-black hover:text-gray-700'> Ver más...</Link>
                     </p>
-                </div>
+                </div> */}
 
             </div>
             <div className='my-2 mx-2 py-2 px-2'></div>
