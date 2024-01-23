@@ -52,7 +52,7 @@ function Clients() {
                             return (
                                <span key={index} className='text-1xl font-poppins text-black text-center'>
                                <img className='w-80 h-100 m-auto py-0 px-4' src={slide.url} alt={slide.name} key={index} />
-                               {slide.name}
+                               
                                </span> 
                             )
                         })

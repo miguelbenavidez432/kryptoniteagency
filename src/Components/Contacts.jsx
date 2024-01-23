@@ -13,7 +13,7 @@ function Contacts() {
         <>
             <div className={` ${styles.flexStart} bg-slate-300 bg-opacity-90 rounded-2xl px-2 `}>
                 <div className={`${styles.boxWidth} max-w-md w-full mx-auto p-6 rounded-lg`}>
-                    <h1 className='text-3x1 text-center text-stone-950 font-poppins font-semibold mb-6 text-[52px]'>Conctactanos</h1>
+                    <h1 className='text-3x1 text-center text-stone-950 font-poppins font-semibold mb-6 text-[52px]'>Contacto</h1>
                     <form action="https://formsubmit.co/info@kryptoniteagency.com" method="POST">
                         <div className='mb-4'>
                             <label className='block text-stone-950 text-sm font-poppins mb-2' htmlFor="">Tu nombre</label>
