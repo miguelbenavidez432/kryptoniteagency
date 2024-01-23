@@ -36,7 +36,7 @@ function About() {
                         <img src={consultoria_3} alt="" className='w-screen' />
                     </Link>
                 </div> */}
-                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
+                <div className={`${styles.flexCenter} ${styles.paddingX} py-4 mt-8`}>
 
                     <img src={agencia_2} alt="" className='me-72 p-0 absolute' />
 
@@ -54,17 +54,15 @@ function About() {
                         <Link to='/agencia' className='text-black hover:text-gray-700'> Ver más...</Link>
                     </p>
                 </div>
-                <div className={`${styles.flexCenter} ${styles.paddingX} py-4`}>
+                <div className={`${styles.flexCenter} ${styles.paddingX} ${styles.paddingY} ${styles.marginX} mt-16`}>
 
-                    <img src={central_de_medios_2} alt="" className='me-72 p-0 absolute max-w-screen-sm size-60' />
+                    <img src={central_de_medios_2} alt="" className='ms-72 p-0 absolute max-w-screen-sm size-60' />
 
                     <img src={central_de_medios_horizontal} alt="" className='absolute mx-8 my-14 border-slate-500 border-2 invisible md:visible' />
-                    <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] md:relative text-right text-white ms-60 `}>
+                    <p className={`${styles.paragraph} max-w-[770px] relative text-white md:text-start me-60 text-center `}>
                         En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
                         compra y ejecución de estrategias de medios. Nuestro objetivo es ayudar a las marcas a maximizar su alcance e
                         impacto en el mercado, optimizando cada dólar invertido en publicidad.
-
-
 
                         <Link to='/central-de-medios' className='text-black hover:text-gray-700'> Ver más...</Link>
                     </p>
