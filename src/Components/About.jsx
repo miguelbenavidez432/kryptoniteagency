@@ -6,7 +6,7 @@ import Footer from './Footer'
 import Clients from './Clients'
 import Contacts from './Contacts'
 import { Link } from 'react-router-dom'
-import { agencia, agencia_2, agencia_3, agencia_horizontal, central_de_medios, central_de_medios_2, central_de_medios_3, central_de_medios_horizontal, consultoria, consultoria_2, consultoria_3, consultoria_horizontal } from '../assets'
+import { agencia, agencia_2, agencia_3, agencia_horizontal, central_de_medios, central_de_medios_2, central_de_medios_3, central_de_medios_horizontal, consultoria, consultoria_2, consultoria_3, consultoria_horizontal, logo } from '../assets'
 
 function About() {
     return (
@@ -74,12 +74,56 @@ function About() {
                 <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16`}>
                     <img src={consultoria_2} alt="" className='me-48 p-0 absolute size-52' />
                     <img src={consultoria_horizontal} alt="" className='absolute mx-8 my-14 border-slate-500 border-2 invisible md:visible' />
-                    <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] md:relative text-left text-white ms-60 pr-16 md:text-end pl-10`}>
+                    <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] md:relative text-left text-white ms-60 pr-20 md:text-end pl-10`}>
                         En nuestra consultoría de comunicación y estrategia nos especializamos en ayudar a las empresas a
                         desarrollar y ejecutar estrategias de comunicación efectivas y a medida. Nuestro enfoque radica en comprender
                         a fondo las necesidades y objetivos de cada cliente, para así poder diseñar soluciones personalizadas que generen
                         un impacto positivo en su reputación y relación con su público objetivo.
                         <Link to='/consultoria' className='text-black hover:text-gray-700'> Ver más...</Link>
+                    </p>
+                </div>
+
+                <div className={`${styles.paddingX} ${styles.flexCenter} my-10`}>
+                    {/* <h1 className='text-black flex-1 font-poppins font-semibold 
+                ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
+                                AGENCIA
+                            </h1> */}
+                    <img src={logo} alt="" className='rounded-3xl brightness-50 md:min-w-40 md:max-h-48 min-w-10 max-h-32' />
+                    <img src={agencia_2} alt="" className='rounded-3xl brightness-50 md:min-w-96 md:max-h-96 min-w-40 max-h-40' />
+
+                </div>
+                <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+                    <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold`}>
+                        En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y
+                        posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
+                        resultados excepcionales a nuestros clientes al implementar estrategias de marketing efectivas y campañas
+                        publicitarias impactantes.
+                    </p>
+                </div>
+
+                <div className={`${styles.paddingX} ${styles.flexCenter} my-10`}>
+                    <img src={logo} alt="" className='rounded-3xl brightness-50 md:min-w-40 md:max-h-48 min-w-10 max-h-32' />
+                    <img src={central_de_medios_2} alt="" className='rounded-3xl brightness-50 mmd:min-w-96 md:max-h-96 min-w-40 max-h-40' />
+                </div>
+                <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+                    <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold`}>
+                        En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
+                        compra y ejecución de estrategias de medios. Nuestro objetivo es ayudar a las marcas a maximizar su alcance e
+                        impacto en el mercado, optimizando cada dólar invertido en publicidad.
+
+                    </p>
+                </div>
+                <div className={`${styles.paddingX} ${styles.flexCenter} my-10`}>
+                    <img src={logo} alt="" className='rounded-3xl brightness-50 md:min-w-40 md:max-h-48 min-w-10 max-h-32' />
+                    <img src={consultoria_2} alt="" className='rounded-3xl brightness-50 mmd:min-w-96 md:max-h-96 min-w-40 max-h-40 ' />
+
+                </div>
+                <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+                    <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold`}>
+                        En nuestra consultoría de comunicación y estrategia nos especializamos en ayudar a las empresas a
+                        desarrollar y ejecutar estrategias de comunicación efectivas y a medida. Nuestro enfoque radica en comprender
+                        a fondo las necesidades y objetivos de cada cliente, para así poder diseñar soluciones personalizadas que generen
+                        un impacto positivo en su reputación y relación con su público objetivo.
                     </p>
                 </div>
 
