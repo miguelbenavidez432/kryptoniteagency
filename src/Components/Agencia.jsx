@@ -6,9 +6,9 @@ import { agencia, agencia_2, central_de_medios_2, logo } from '../assets';
 
 function Agencia() {
     return (
-        <div className=' bg-slate-800 w-full overflow-hidden'>
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth} `}>
+        <div className=' bg-grayDark w-full overflow-hidden'>
+            <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-800`}>
+                <div className={`${styles.boxWidth} bg-slate-800`}>
                     <Header></Header>
                 </div>
 

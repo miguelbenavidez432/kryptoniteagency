@@ -6,8 +6,8 @@ import { consultoria, consultoria_2, logo } from '../assets';
 
 function Consultoria() {
     return (
-        <div className=' bg-slate-800 w-full overflow-hidden'>
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className=' bg-grayDark w-full overflow-hidden'>
+            <div className={`${styles.paddingX} ${styles.flexCenter} bg-slate-800`}>
                 <div className={`${styles.boxWidth} `}>
                     <Header></Header>
                 </div>

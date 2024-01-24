@@ -18,7 +18,7 @@ function About() {
         // //     </div>
 
         //     <div className={`bg-slate-700 ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth} `}>
 
             <div className='w-full overflow-hidden' >
                 {/* <div className={`${styles.flexCenter} py-4`}>
@@ -35,16 +35,16 @@ function About() {
                     <Link to='/consultoria'>
                         <img src={consultoria_3} alt="" className='w-screen' />
                     </Link>
-                </div> */}
+                </div>
                 <div className={`${styles.flexCenter} ${styles.paddingX} py-4 mt-8 container `} >
 
                     <img src={agencia_2} alt="" className='me-60 p-0 absolute pl-12' />
 
                     <img src={agencia_horizontal} alt="" className='absolute mx-8 my-14 border-slate-500 border-2 invisible md:visible' />
-                    {/* <h1 className='text-black flex-1 font-poppins font-semibold 
+                    <h1 className='text-black flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
                         AGENCIA
-                    </h1> */}
+                    </h1>
                     <p className={`${styles.paragraph} max-w-[770px] mt-5 md:text[22px] sm:relative text-left text-white ms-60 pr-20`}>
                         En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y
                         posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
@@ -66,10 +66,10 @@ function About() {
 
                         <Link to='/central-de-medios' className='text-black hover:text-gray-700'> Ver más...</Link>
                     </p>
-                    {/* <h1 className={`text-stone-950 flex-1 font-poppins font-semibold 
+                    <h1 className={`text-stone-950 flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] ml-10`}>
                         CENTRAL DE MEDIOS
-                    </h1> */}
+                    </h1>
                 </div>
                 <div className={`${styles.paddingX} ${styles.flexCenter} my-8 mx-8 py-16 px-16`}>
                     <img src={consultoria_2} alt="" className='me-48 p-0 absolute size-52' />
@@ -81,7 +81,7 @@ function About() {
                         un impacto positivo en su reputación y relación con su público objetivo.
                         <Link to='/consultoria' className='text-black hover:text-gray-700'> Ver más...</Link>
                     </p>
-                </div>
+                </div> */}
 
                 <div className={`${styles.paddingX} ${styles.flexCenter} my-10`}>
                     {/* <h1 className='text-black flex-1 font-poppins font-semibold 
@@ -92,7 +92,7 @@ function About() {
                     <img src={agencia_2} alt="" className='rounded-3xl brightness-50 md:min-w-96 md:max-h-96 min-w-40 max-h-40' />
 
                 </div>
-                <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+                <div className={` ${styles.flexCenter} `}>
                     <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold`}>
                         En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y
                         posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
