@@ -36,16 +36,16 @@ function About() {
                         <img src={consultoria_3} alt="" className='w-screen' />
                     </Link>
                 </div> */}
-                <div className={`${styles.flexCenter} ${styles.paddingX} py-4 mt-8`}>
+                <div className={`${styles.flexCenter} ${styles.paddingX} py-4 mt-8 container `} >
 
-                    <img src={agencia_2} alt="" className='me-72 p-0 absolute' />
+                    <img src={agencia_2} alt="" className='me-96 p-0 absolute pl-12 ' />
 
                     <img src={agencia_horizontal} alt="" className='absolute mx-8 my-14 border-slate-500 border-2 invisible md:visible' />
                     {/* <h1 className='text-black flex-1 font-poppins font-semibold 
                 ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
                         AGENCIA
                     </h1> */}
-                    <p className={`${styles.paragraph} max-w-[770px] mt-5 ss:text[22px] md:relative text-right text-white ms-60 `}>
+                    <p className={`${styles.paragraph} max-w-[770px] mt-5 md:text[22px] sm:relative text-right text-white ms-60 pr-10`}>
                         En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y
                         posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
                         resultados excepcionales a nuestros clientes al implementar estrategias de marketing efectivas y campañas
