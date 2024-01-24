@@ -98,6 +98,7 @@ function About() {
                         posicionar marcas en el mercado. Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer
                         resultados excepcionales a nuestros clientes al implementar estrategias de marketing efectivas y campañas
                         publicitarias impactantes.
+                        <Link to='/agencia' className='text-gray-400 hover:text-black'> Ver más...</Link>
                     </p>
                 </div>
 
@@ -110,6 +111,7 @@ function About() {
                         En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
                         compra y ejecución de estrategias de medios. Nuestro objetivo es ayudar a las marcas a maximizar su alcance e
                         impacto en el mercado, optimizando cada dólar invertido en publicidad.
+                        <Link to='/central-de-medios' className='text-gray-400 hover:text-black'> Ver más...</Link>
 
                     </p>
                 </div>
@@ -124,6 +126,7 @@ function About() {
                         desarrollar y ejecutar estrategias de comunicación efectivas y a medida. Nuestro enfoque radica en comprender
                         a fondo las necesidades y objetivos de cada cliente, para así poder diseñar soluciones personalizadas que generen
                         un impacto positivo en su reputación y relación con su público objetivo.
+                        <Link to='/consultoria' className='text-gray-400 hover:text-black'> Ver más...</Link>
                     </p>
                 </div>
 

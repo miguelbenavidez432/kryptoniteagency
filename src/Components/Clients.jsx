@@ -51,7 +51,7 @@ function Clients() {
                         slides.map((slide, index) => {
                             return (
                                <span key={index} className='text-1xl font-poppins text-black text-center'>
-                               <img className='w-80 h-100 m-auto py-0 px-4' src={slide.url} alt={slide.name} key={index} />
+                               <img className='w-80 h-100 m-auto py-0 px-4 min-w-28' src={slide.url} alt={slide.name} key={index} />
                                
                                </span> 
                             )
