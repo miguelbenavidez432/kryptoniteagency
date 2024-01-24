@@ -51,7 +51,7 @@ function Clients() {
                         slides.map((slide, index) => {
                             return (
                                
-                               <img className='w-80 h-100 m-auto py-0 pr-5 pl-0 min-w-28 ml-0 mr-2' src={slide.url} alt={slide.name} key={index} />
+                               <img className='w-80 h-100 m-auto py-0 pr-5 pl-0 min-w-20 ml-0 mr-2' src={slide.url} alt={slide.name} key={index} />
                                
                                
                             )
