@@ -51,6 +51,7 @@ import central_de_medios_3 from './central_de_medios_3.png'
 import agencia_3 from './agencia_3.png'
 import consultoria_3 from './consultoria_3.png'
 import background from './background.png'
+import kriptonitebg from './kriptonite.png'
 
 export {
   vamos_bsas,
@@ -105,5 +106,6 @@ export {
   central_de_medios_3,
   agencia_3,
   consultoria_3,
-  background
+  background,
+  kriptonitebg,
 };

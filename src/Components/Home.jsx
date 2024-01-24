@@ -11,7 +11,7 @@ import About from './About';
 import Contacts from './Contacts';
 import Clients from './Clients';
 import { Link } from 'react-router-dom';
-import { agencia_2, agencia_horizontal, background, central_de_medios_2, central_de_medios_horizontal, consultoria_2, consultoria_horizontal } from '../assets';
+import { agencia_2, agencia_horizontal, background, central_de_medios_2, central_de_medios_horizontal, consultoria_2, consultoria_horizontal, kriptonitebg } from '../assets';
 
 function Home() {
   return (
@@ -22,7 +22,7 @@ function Home() {
         </div>
       </div>
       <div className={` ${styles.flexStart} `}>
-        <img src="../src/assets/kriptonitebg.jpg" alt="" />
+        <img src={kriptonitebg} alt="" />
       </div>
       {/* <div className={`bg-slate-700 ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}`}>
