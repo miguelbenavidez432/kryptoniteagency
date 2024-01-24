@@ -22,7 +22,7 @@ function Home() {
         </div>
       </div>
       <div className={` ${styles.flexStart} `}>
-        <img src="../src/assets/kriptonite.png" alt="" />
+        <img src="../src/assets/kriptonitebg.jpg" alt="" />
       </div>
       {/* <div className={`bg-slate-700 ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}`}>
