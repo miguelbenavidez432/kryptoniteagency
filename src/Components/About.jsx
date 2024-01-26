@@ -102,12 +102,12 @@ function About() {
                     </p>
                 </div>
 
-                <div className={`${styles.paddingX} ${styles.flexCenter} my-10 bg-lightColor`}>
+                <div className={`${styles.paddingX} ${styles.flexCenter} my-10`}>
                     <img src={logo} alt="" className='rounded-3xl brightness-50 md:min-w-40 md:max-h-48 min-w-10 max-h-32 ' />
                     <img src={central_de_medios_2} alt="" className='rounded-3xl brightness-50 mmd:min-w-96 md:max-h-96 min-w-40 max-h-40 ' />
                 </div>
                 <div className={`${styles.paddingX} ${styles.flexCenter} bg-lightColor`}>
-                    <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold bg-lightColor`}>
+                    <p className={`${styles.paragraph} max-w-screen-lg text-base ss:text[22px] mb-20 text-white font-semibold`}>
                         En nuestra central de medios nos dedicamos a ofrecer soluciones integrales y efectivas para la planificación,
                         compra y ejecución de estrategias de medios. Nuestro objetivo es ayudar a las marcas a maximizar su alcance e
                         impacto en el mercado, optimizando cada dólar invertido en publicidad.
