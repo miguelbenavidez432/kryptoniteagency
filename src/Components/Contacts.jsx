@@ -28,7 +28,7 @@ function Contacts() {
                             <textarea placeholder='Danos tu opinión o realiza una consulta' className='w-full px-3 py-2 border rounded-lg focus:border-blue-400' required name='message' id="" cols="30" rows="10"></textarea>
                         </div>
                         <div>
-                            <input type="hidden" name="_next" value="http://localhost:5173/home"/>
+                            <input type="hidden" name="_next" value="http://localhost:5173/home" />
                         </div>
                         <div>
                             <button type="submit" className="text-stone-950 bg-gradient-to-br from-blue-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Enviar</button>

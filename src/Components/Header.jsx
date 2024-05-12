@@ -20,7 +20,7 @@ const Header = () => {
                 } ${index === navLinks.length - 1 ? "mr-0" : "mr-6"}`}
             >
               {/* <h1 className="font-semibold font-poppins">{n.title}</h1> */}
-              <a className="font-semibold font-poppins" href={`${n.url}`}>{n.title}</a>
+              <Link className="font-semibold font-poppins" to={`${n.url}`}>{n.title}</Link>
             </li>
           ))
         }

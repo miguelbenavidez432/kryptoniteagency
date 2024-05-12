@@ -14,10 +14,7 @@ function Agencia() {
 
             </div>
             <div className={`${styles.paddingX} ${styles.flexCenter} my-10`}>
-                {/* <h1 className='text-black flex-1 font-poppins font-semibold 
-                ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] mr-2 '>
-                                AGENCIA
-                            </h1> */}
+                
                 <img src={logo} alt="" className='rounded-3xl brightness-50 min-w-40 max-h-48' />
                 <img src={agencia_2} alt="" className='rounded-3xl brightness-50 min-w-96 max-h-96 ' />
 

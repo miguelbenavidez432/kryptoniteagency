@@ -11,6 +11,7 @@ import Clients from './Components/Clients';
 import Agencia from './Components/Agencia';
 import Central from './Components/Central';
 import Consultoria from './Components/Consultoria';
+import ParticleBackground from './Components/ParticleBackground';
 
 export default function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ export default function App() {
         <Route path='/agencia' element={<Agencia></Agencia>}></Route>
         <Route path='/central-de-medios' element={<Central></Central>}></Route>
         <Route path='/consultoria' element={<Consultoria></Consultoria>}></Route>
+        <Route path='/move' element={<ParticleBackground></ParticleBackground>}></Route>
       </Routes>
     </>
   )

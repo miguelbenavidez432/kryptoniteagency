@@ -41,11 +41,6 @@ function Central() {
                     Compramos, vendemos y comercializamos medios tradicionales, medios digitales y vía pública así como también transporte público y
                     nuevas tecnologías como puntos wifi y wifi en colectivos y trenes
                 </p>
-                {/* <h1 className={`text-stone-950 flex-1 font-poppins font-semibold 
-                ss:text[72px] text-[52px] ss:leading-[100px] leading-[75px] ml-10`}>
-                                CENTRAL DE MEDIOS
-                            </h1> */}
-
             </div>
         </div>
     )
